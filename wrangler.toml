@@ -1,0 +1,9 @@
+name = "cloudflare-bot-spoofer"
+type = "javascript"
+
+# The entrypoint/path to the file that will be executed.
+main = "index.js"
+
+account_id = "eb72da6777f630a3116117a141717763"
+workers_dev = true
+compatibility_date = "2022-07-04"

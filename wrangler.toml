@@ -5,5 +5,11 @@ type = "javascript"
 main = "index.js"
 
 account_id = "eb72da6777f630a3116117a141717763"
+zone_id = "bef15c86c286cb58f9c8935bba13852f"
 workers_dev = true
 compatibility_date = "2022-07-04"
+
+# A list of routes that your Worker should be published to.
+# Required because we are using botManagement variables.
+# The same as routes, but only one.
+route = "https://www.cf-testing.com/bot"

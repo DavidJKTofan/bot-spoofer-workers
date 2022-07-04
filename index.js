@@ -8,7 +8,7 @@ async function handleRequest(request) {
   let newRequest = new Request(request);
 
   // Add Bot Score header
-  newRequest.headers.set("CF-Bot-Score", request.cf.botManagement.score);
+  newRequest.headers.set("CF-Bot-Score", request.cf.botManagement.score)
 
   // Set conditional response based on Bot Score
   let response = await fetch(newRequest)

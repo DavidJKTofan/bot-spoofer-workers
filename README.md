@@ -15,7 +15,7 @@ In this case, we added the route `https://www.cf-testing.com/bot-spoofer*`.
 
 Use the following cURL terminal command to check if the redirect works:
 
-`curl -L https://www.cf-testing.com/bot-spoofer`
+`curl -L https://www.cf-testing.com/bot-spoofer.html`
 
 ## DevDocs
 

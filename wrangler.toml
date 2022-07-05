@@ -12,4 +12,4 @@ compatibility_date = "2022-07-04"
 # A list of routes that your Worker should be published to.
 # Required because we are using botManagement variables.
 # The same as routes, but only one.
-route = "https://www.cf-testing.com/bot"
+route = "https://www.cf-testing.com/bot-spoofer"

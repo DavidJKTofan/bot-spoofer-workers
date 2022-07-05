@@ -1,11 +1,14 @@
 addEventListener('fetch', event => {
-  event.respondWith(handleRequest(event.request));
+  event.respondWith(handleRequest(event.request))
 })
 
 async function handleRequest(request) {
 
   // Copy the Request object
   let newRequest = new Request(request);
+
+  console.log(request.cf.country)
+  console.log(request.cf)
 
   // Add Bot Score header
   newRequest.headers.set("CF-Bot-Score", request.cf.botManagement.score);

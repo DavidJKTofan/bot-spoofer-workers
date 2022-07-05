@@ -8,6 +8,9 @@ Set up [GitHub Action](https://github.com/marketplace/actions/deploy-to-cloudfla
 
 Furthermore, use GitHub Secrets like `CF_ACCOUNT_ID` for your Cloudflare Account ID and `CF_API_TOKEN` for your Cloudflare Workers API Token Key, which can then be used in the GitHub Action.
 
+Finally, in the config file [wrangler.toml](wrangler.toml) add the `route` to the zone where also Cloudflare Enterprise Bot Management is active. 
+In this case, we added the route `https://www.cf-testing.com/bot-spoofer*`.
+
 ## Usage
 
 Use the following cURL terminal command to check if the redirect works:

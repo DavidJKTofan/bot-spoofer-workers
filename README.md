@@ -6,7 +6,7 @@ Conditional redirect based on [Bot Score](https://developers.cloudflare.com/bots
 
 Set up [GitHub Action](https://github.com/marketplace/actions/deploy-to-cloudflare-workers-with-wrangler) to automate deployment to Cloudflare Workers with Wrangler.
 
-Furthermore, use GitHub Secrets like `CF_ACCOUNT_ID` for your Cloudflare Account ID and `CF_API_TOKEN` for your Cloudflare API Token Key, which can then be used in the GitHub Action.
+Furthermore, use GitHub Secrets like `CF_ACCOUNT_ID` for your Cloudflare Account ID and `CF_API_TOKEN` for your Cloudflare Workers API Token Key, which can then be used in the GitHub Action.
 
 ## Usage
 

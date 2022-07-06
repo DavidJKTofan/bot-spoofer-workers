@@ -28,3 +28,5 @@ Learn more on [how Workers works](https://developers.cloudflare.com/workers/lear
 # Disclaimer
 
 Educational purposes only.
+
+This repo does not reflect the opinions of, and is not affiliated with Cloudflare.

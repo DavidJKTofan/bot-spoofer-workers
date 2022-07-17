@@ -23,6 +23,14 @@ Check out the [Wrangler Config](https://developers.cloudflare.com/workers/wrangl
 
 Learn more on [how Workers works](https://developers.cloudflare.com/workers/learning/how-workers-works/).
 
+## Curious?
+
+Curious about your own Bot Score? 
+
+Visit [https://cf-testing.com/bm-demo](https://cf-testing.com/bm-demo) or use cURL in terminal:
+
+`curl https://cf-testing.com/bm-demo`
+
 * * * * *
 
 # Disclaimer
